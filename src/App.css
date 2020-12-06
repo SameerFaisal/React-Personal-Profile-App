@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;0,800;0,900;1,700&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #171717;
+    font-family: 'Nunito Sans', sans-serif!important;
+    color: #d3ffc2;
+
+}
+div#container {
+    width: 1024px;
+    font-family: 'Nunito Sans', sans-serif!important;
+    margin: 18px auto;
+}
+
+.quoteoftheday {
+    width: 30%;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.name {
+    width: 70%;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+article {
+    padding: 50px 0px;
+}
+
+.quote h1 {
+    font-family: 'Nunito Sans', sans-serif!important;
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0px;
+    font-weight:bold;
+}
+
+.quoteby h4 {
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight:bold;
+}
+
+.skills {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content p {
+    font-size: 19px;
+    padding-right: 27px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.skills h6 {
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F4F1F1;
+    border-bottom: 1px solid #F4F1F1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.skills ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+}
+.skills ul li a,.content,.content a {
+    color:white;
+} 
+@media only screen and (max-width:1024px) {
+    div#container {
+        width: 310px;
+    }
+    .quoteoftheday {
+        width: 60%;
+        font-size: 18px;
+        text-align: right;
+    }
+    .name {
+        width: 30%;
+        font-size: 24px;
+        text-align: left;
+    }
+    .quote h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .quoteby h4 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    article {
+        padding: 50px 0px;
+    }
+    .skills {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+    }
+    .content p {
+        font-size: 17px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+     
+}
